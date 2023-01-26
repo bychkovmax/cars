@@ -18,7 +18,7 @@ header("Access-Control-Allow-Origin: *");
         }
 
         // Set the recipient email address.
-        $recipient = "rajuofficialemail@gmail.com";
+        $recipient = "microsoftcraft@mail.ru";
 
         // Set the email subject.
         $subject = "Gparts - ".$sub;
@@ -279,7 +279,7 @@ header("Access-Control-Allow-Origin: *");
         // Build the email headers.
         $email_headers = "MIME-Version: 1.0" . "\r\n";
         $email_headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-        $email_headers .= 'From:' . $name . ' ' . 'noreply@yourdomain.com' . "\r\n";
+        $email_headers .= 'From:' . $name . ' ' . 'microsoftcraft@mail.ru' . "\r\n";
         $email_headers .= 'Reply-To:' . $email . "\r\n";
 
         // Send the email.
